@@ -898,8 +898,8 @@ a {
 .contact_details {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  margin-top: 3px;
+  gap: 4px;
+  margin-top: 6px;
 }
 
 .contact_note {
