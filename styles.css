@@ -897,6 +897,7 @@ a {
 
 .contact_details {
   display: flex;
+  gap: 2px;
   flex-direction: column;
   gap: 4px;
 }
