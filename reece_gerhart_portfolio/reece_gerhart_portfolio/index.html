@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal portfolio of Reece Gerhart, a computer science student building software and practical technology projects.">
+  <meta name="theme-color" content="#101820">
+  <title>Reece Gerhart | Computer Science</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site_header">
+    <a class="wordmark" href="#home" aria-label="Reece Gerhart home">RG<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a class="nav_contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section_wrap" id="home">
+      <div class="hero_copy">
+        <p class="eyebrow"><span class="status_dot"></span> COMPUTER SCIENCE STUDENT</p>
+        <h1>Reece<br><span>Gerhart.</span></h1>
+        <p class="hero_intro">I build software, explore how systems work, and turn ideas into practical projects.</p>
+        <div class="hero_actions">
+          <a class="button button_primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="text_link" href="https://github.com/reecegerhart" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero_art" aria-label="Decorative abstract graphic">
+        <div class="art_grid"></div>
+        <div class="orbit orbit_one"></div>
+        <div class="orbit orbit_two"></div>
+        <div class="art_core"><span>RG</span><i></i></div>
+        <div class="art_label label_top">BUILD / LEARN</div>
+        <div class="art_label label_bottom">SOFTWARE · SYSTEMS · IDEAS</div>
+        <span class="art_cross cross_one">+</span>
+        <span class="art_cross cross_two">+</span>
+      </div>
+      <div class="hero_footer"><span>BASED IN THE UNITED STATES</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="about section_wrap" id="about">
+      <div class="section_heading"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curious by nature.<br><span>Practical by design.</span></h2></div>
+      <div class="about_copy">
+        <p>I am a computer science student interested in software development, data, and the systems that make technology useful. I enjoy learning by building, testing ideas, and working through the details that turn a concept into something people can use.</p>
+        <p>This site is a growing collection of projects, experiments, and things I am learning along the way.</p>
+        <a class="text_link" href="https://github.com/reecegerhart" target="_blank" rel="noreferrer">See what I am building on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="projects section_wrap" id="projects">
+      <div class="section_topline"><p class="eyebrow">02 / SELECTED WORK</p><p class="muted_note">A few projects in progress and completed</p></div>
+      <div class="project_grid">
+        <article class="project_card project_featured">
+          <div class="project_visual visual_income"><span class="visual_tag">01 / MACHINE LEARNING</span><div class="chart_mock"><span style="height:36%"></span><span style="height:58%"></span><span style="height:45%"></span><span style="height:76%"></span><span style="height:64%"></span><span style="height:91%"></span><span style="height:70%"></span></div><div class="visual_caption">INCOME INSIGHT <span>MODEL + API + DATA</span></div></div>
+          <div class="project_info"><div><h3>Income Insight</h3><p>A machine learning project exploring tabular classification with a web interface, an API model service, and persistent run history.</p></div><a class="round_link" href="https://github.com/reecegerhart/CST435Topic2" target="_blank" rel="noreferrer" aria-label="View Income Insight on GitHub">↗</a></div>
+          <div class="tag_row"><span>Python</span><span>PyTorch</span><span>FastAPI</span><span>Supabase</span></div>
+        </article>
+        <article class="project_card">
+          <div class="project_visual visual_compiler"><span class="visual_tag">02 / COMPILER DESIGN</span><div class="code_lines"><span>01&nbsp; source → tokens</span><span>02&nbsp; tokens → syntax tree</span><span>03&nbsp; syntax → assembly</span><span class="code_accent">04&nbsp; compile and test</span></div><div class="visual_caption">MINI COMPILER <span>LANGUAGE TO ASSEMBLY</span></div></div>
+          <div class="project_info"><div><h3>Mini Compiler</h3><p>A student compiler project focused on parsing expressions and generating assembly output through a multi stage pipeline.</p></div><a class="round_link" href="https://github.com/reecegerhart/CST405" target="_blank" rel="noreferrer" aria-label="View Mini Compiler on GitHub">↗</a></div>
+          <div class="tag_row"><span>C</span><span>Compiler Design</span><span>Make</span></div>
+        </article>
+        <article class="project_card">
+          <div class="project_visual visual_deck"><span class="visual_tag">03 / CAPSTONE</span><div class="deck_diagram"><div class="deck_beam"></div><div class="deck_beam beam_two"></div><div class="deck_beam beam_three"></div><span>INPUTS</span><span>CALCULATIONS</span><span>RESULTS</span></div><div class="visual_caption">STEEL DECK DESIGN <span>WEB PLATFORM</span></div></div>
+          <div class="project_info"><div><h3>Structural Deck Design Platform</h3><p>A capstone project to translate an existing steel deck calculation workflow into a web based engineering tool. Currently in planning and requirements work.</p></div><span class="round_link round_static" aria-label="Project in progress">↗</span></div>
+          <div class="tag_row"><span>Web Development</span><span>AWS Planning</span><span>Engineering</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section_wrap" id="skills">
+      <div class="section_heading"><p class="eyebrow">03 / TOOLKIT</p><h2>Things I work with.</h2></div>
+      <div class="skills_content">
+        <p class="skills_intro">A growing toolkit built through coursework, independent learning, and hands on projects.</p>
+        <div class="skill_group"><h3>Languages</h3><div class="skill_list"><span>Python</span><span>Java</span><span>C / C++</span><span>JavaScript</span><span>MATLAB</span></div></div>
+        <div class="skill_group"><h3>Tools and technologies</h3><div class="skill_list"><span>Git and GitHub</span><span>FastAPI</span><span>PyTorch</span><span>SQL</span><span>Cloud deployment</span></div></div>
+        <p class="skills_note">This list reflects technologies used or explored in projects and coursework, not a claim of expert level proficiency.</p>
+      </div>
+    </section>
+
+    <section class="contact section_wrap" id="contact">
+      <p class="eyebrow">04 / GET IN TOUCH</p>
+      <h2>Have a project<br>or idea in mind<span>?</span></h2>
+      <p class="contact_intro">I am always interested in learning, building, and connecting with people working on useful things.</p>
+      <div class="contact_actions"><a class="button button_light" href="https://github.com/reecegerhart" target="_blank" rel="noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a><a class="text_link light_link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
+      <p class="contact_note">Add your preferred email and LinkedIn profile when you are ready to publish.</p>
+    </section>
+  </main>
+
+  <footer class="site_footer"><a class="wordmark" href="#home">RG<span>.</span></a><p>Designed and built by Reece Gerhart.</p><a href="#home">BACK TO TOP ↑</a><span class="footer_year">© <span id="year">2026</span></span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
