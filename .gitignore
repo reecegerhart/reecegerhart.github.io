@@ -1,0 +1,17 @@
+#
+username for domain account : reecegerhart
+Password for domain account : New-Item .gitignore -ItemType File
+
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
